@@ -11,6 +11,7 @@ The repository is somewhat larger than expected.
 I have different asset packs that’s being used for the game.
 
 Gameplay Loop
+
 1.	Go to Mission Terminal
 2.	Choose Mission
 3.	Head to the west side of the ship
@@ -25,14 +26,18 @@ Gameplay Loop
 •	Extraction – Find the beacon and extract resources from it while defending yourself.
 10.	Run back to the warp point (use the navigation to find your way back)
 11.	Repeat (without grabbing another weapon. There isn’t a way to drop them right now)
+
 Features (Needing to be added)
+
 •	Fully completed crafting system
 •	Inventory System
 •	Upgrade System
 •	Skills for both player and boss enemies
 •	Ship reacting to resources.
 •	More animations.
+
 Known Bugs(that I know of so far)
+
 •	When being attacked by a stray bullet by an already destroyed enemy, the game will display an error that the origin is null. (Still trying to fix)
 •	The rewards screen does not properly display resources gained within the level.
 •	Some walls in the levels are not properly placed, giving less space for the player.
@@ -41,6 +46,7 @@ Known Bugs(that I know of so far)
 •	If the player uses the equipment window or mission window, there isn’t a way to go back into it.
 •	Some objects aren’t on the ground, they can be seen hovering.
 •	Shotgun produces a bug where if multiple lasers hit one target on destroy, multiple points are rewarded for exterminate missions. (I know how to fix this; I mainly kept it in for the Final Prototype Video otherwise it could take quite a while to complete a mission in my game.)
+
 Cheats (Debug commands) –
 Inspired from a youtube video for command console it was very helpful! - https://www.youtube.com/watch?v=VzOEM-4A2OM (Game Dev Guide)
 
@@ -54,8 +60,10 @@ To use, have to press the (" ' "), click into the GUI box, type in the code, cli
 Credit
 
 Game Dev Guide: 
+
 •	Creating a Cheat Console in Unity: https://www.youtube.com/watch?v=VzOEM-4A2OM 
 Synty Studios: 
+
 I didn’t buy these during the semester they were from a previous project that I done on my own and I really like their work
 •	POLYGON Nature Pack: https://syntystore.com/products/polygon-nature-pack?_pos=5&_sid=42a7b79bb&_ss=r
 •	POLYGON Western Frontier Pack: https://syntystore.com/products/polygon-western-frontier-pack?_pos=2&_sid=f945bb5be&_ss=r
