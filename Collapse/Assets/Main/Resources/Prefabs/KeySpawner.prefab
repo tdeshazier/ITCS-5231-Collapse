@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3510288228054429418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3510288228054429419}
+  - component: {fileID: 3510288228054429421}
+  - component: {fileID: 3510288228054429420}
+  m_Layer: 0
+  m_Name: KeySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3510288228054429419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510288228054429418}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3510288228054429421
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510288228054429418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 10
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3510288228054429420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510288228054429418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab5d61954134cd74c8162ac8b3570f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawn_player: 0
+  spawn_obj: 0
+  playerPrefab: {fileID: 2233363958691577665, guid: c4d38818b32d3e343a030feddc76cfe1,
+    type: 3}
+  extractionPrefab: {fileID: 1228565800103437002, guid: f84faca9f072e22438591882f55dc919,
+    type: 3}
+  Range_Boss: {fileID: 2404470001542428867, guid: 6608799ab74c3a54fa9e29c660d4638d,
+    type: 3}
+  Melee_Boss: {fileID: 7704876254788721665, guid: 27852d3d7f7eb5b4897e860412b05d6f,
+    type: 3}
+  boss: {fileID: 0}
+  obj: {fileID: 0}
+  returnPoint: {fileID: 1922477570944108900, guid: d2c79751b1c0a5f449819bcd72732df5,
+    type: 3}

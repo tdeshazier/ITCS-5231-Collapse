@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1675153774464594068
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1675153774464594070}
+  - component: {fileID: 1675153774464594069}
+  - component: {fileID: 9013157006540289367}
+  - component: {fileID: 8303276837804462343}
+  - component: {fileID: 1635046257640746475}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1675153774464594070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675153774464594068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1001.5, y: 523.3119, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1675153774464594069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675153774464594068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a77778186bf0bea4ab8c5b786d9c96ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  returnPoint: {fileID: 0}
+  temp_weapons: []
+  saved_weapons: []
+  hub_ui: {fileID: 0}
+  battle_ui: {fileID: 0}
+  difficulty: 1
+  spawn_amount: 5
+  rewardAmount: 0
+  rewardType: 
+  missionSuccess: 0
+  inHub: 0
+  player_spawned: 0
+  gamePaused: 0
+  readyReturn: 0
+  percent_done: 0
+  keyspawner_list: []
+  playerspawns_list: []
+--- !u!114 &9013157006540289367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675153774464594068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ffb86dbf2176b645861e36d9addc76f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8303276837804462343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675153774464594068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a8d6feb643f864db57a8f1dc1b60d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FuelTextAmount: 0
+  SurvivalTextAmount: 0
+  MineralsTextAmount: 0
+--- !u!114 &1635046257640746475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675153774464594068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f882c8388bebdc4180db65942f4644c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleDebug: 0

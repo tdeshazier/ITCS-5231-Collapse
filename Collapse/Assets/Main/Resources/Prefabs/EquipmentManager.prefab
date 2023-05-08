@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3633509962489563505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3633509962489563510}
+  - component: {fileID: 3633509962489563511}
+  - component: {fileID: 8915989319378816642}
+  - component: {fileID: 6134522131332070522}
+  - component: {fileID: 8936781517727855062}
+  m_Layer: 0
+  m_Name: EquipmentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3633509962489563510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633509962489563505}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -148.8, y: 1.98, z: 8.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3633509962489563511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633509962489563505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6abeb6ce17f290342b6a915c3b6be556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapons: []
+  weapon_prefs: []
+--- !u!114 &8915989319378816642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633509962489563505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 584a14d54bb080f41a4f606d619dbd45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgrade_index1: -1
+  upgrade_index2: -1
+  upgrade_index3: -1
+  weapon_crafted1: 1
+  weapon_crafted2: 0
+  weapon_crafted3: 0
+  upgrades:
+  - Damage
+  - Fire Rate
+  - Reload Speed
+  damage_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+  FireRate_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+  Reload_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+--- !u!114 &6134522131332070522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633509962489563505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802cd39a5c0b02f468c76c114312f5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgrade_index1: -1
+  upgrade_index2: -1
+  upgrade_index3: -1
+  weapon_crafted1: 1
+  weapon_crafted2: 0
+  weapon_crafted3: 0
+  upgrades:
+  - Damage
+  - Spread
+  - Reload Speed
+  damage_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+  Spread_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+  Reload_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+--- !u!114 &8936781517727855062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3633509962489563505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9983e2ed03de05a47a6bc5b0963b27c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgrade_index1: -1
+  upgrade_index2: -1
+  upgrade_index3: -1
+  weapon_crafted1: 1
+  weapon_crafted2: 0
+  weapon_crafted3: 0
+  upgrades:
+  - Damage
+  - Accuracy
+  - Reload Speed
+  damage_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+  Accuracy_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
+  Reload_levels:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
+  - 1
